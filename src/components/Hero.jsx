@@ -51,7 +51,7 @@ const Hero = () => {
                         className="flex flex-col sm:flex-row gap-4 justify-center items-center"
                     >
                         <a
-                            href="/cv.pdf"
+                            href="/public/cv.pdf"
                             download="Joel_NDJANGA_CV.pdf"
                             className="btn-primary group"
                         >
