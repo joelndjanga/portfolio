@@ -51,13 +51,15 @@ const Hero = () => {
                         className="flex flex-col sm:flex-row gap-4 justify-center items-center"
                     >
                         <a
-                            href="/public/cv.pdf"
-                            download="Joel_NDJANGA_CV.pdf"
+                            href="/cv.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="btn-primary group"
                         >
                             <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                             Télécharger le CV
                         </a>
+
                         <a
                             href="#contact"
                             onClick={scrollToContact}
