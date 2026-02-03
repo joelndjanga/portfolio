@@ -52,8 +52,7 @@ const Hero = () => {
                     >
                         <a
                             href="/cv.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            download="Joel_NDJANGA_CV.pdf"
                             className="btn-primary group"
                         >
                             <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
